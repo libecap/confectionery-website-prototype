@@ -171,6 +171,11 @@ h2 {
   white-space: nowrap;
 }
 
+figcaption p {
+  margin-top: 0;
+  text-align: center;
+}
+
 .menu-content p {
   padding-bottom: 1rem;
 }
@@ -182,11 +187,6 @@ figure {
 
 figcaption h3 {
   margin: .2em;
-  text-align: center;
-}
-
-figcaption p {
-  margin-top: 0;
   text-align: center;
 }
 
@@ -276,10 +276,14 @@ footer ul {
     display: inline-block;
     width: 30%;
   }
-  
+
+  figcaption p {
+    padding: 0 .2em 0 0;
+  }
+
   .menu-content p {
-  padding-bottom: 0;
-}
+    padding-bottom: 0;
+  }
 
   .gifts {
     text-align: center;
@@ -296,10 +300,6 @@ footer ul {
 
   figcaption h3 {
     margin: .2em 0;
-  }
-
-  figcaption p {
-    padding: 0 .2em 0 0;
   }
 
   .img-assortment {
