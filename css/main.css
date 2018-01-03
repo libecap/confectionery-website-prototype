@@ -140,11 +140,11 @@ footer li a:hover {
   display: none;
 }
 
-.nav-check:checked ~ .nav-label .nav-open {
+.nav-check:checked ~ label .nav-open {
   display: none;
 }
 
-.nav-check:checked ~ .nav-label .nav-close {
+.nav-check:checked ~ label .nav-close {
   display: block;
 }
 
@@ -231,18 +231,9 @@ footer ul {
     float: left;
   }
 
-  footer li {
-    width: 25%;
-  }
-
   .nav li {
     display: inline-block;
     width: 25%;
-  }
-
-  footer li a {
-    display: inline-block;
-    width: 100%;
   }
 
   .nav a {
@@ -338,7 +329,16 @@ footer ul {
     margin: auto;
     text-align: center;
   }
-
+  
+  footer li {
+    width: 25%;
+  }
+  
+  footer li a {
+    display: inline-block;
+    width: 100%;
+  }
+  
   footer li a:hover {
     display: inline-block;
     border-radius: 0;
