@@ -171,6 +171,10 @@ h2 {
   white-space: nowrap;
 }
 
+.menu-content p {
+  padding-bottom: 1rem;
+}
+
 figure {
   margin: auto;
   width: 80%;
