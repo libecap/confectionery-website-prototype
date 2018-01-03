@@ -171,6 +171,11 @@ h2 {
   white-space: nowrap;
 }
 
+figcaption p {
+  margin-top: 0;
+  text-align: center;
+}
+
 .menu-content p {
   padding-bottom: 1rem;
 }
@@ -182,11 +187,6 @@ figure {
 
 figcaption h3 {
   margin: .2em;
-  text-align: center;
-}
-
-figcaption p {
-  margin-top: 0;
   text-align: center;
 }
 
