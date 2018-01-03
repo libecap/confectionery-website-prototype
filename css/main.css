@@ -231,9 +231,18 @@ footer ul {
     float: left;
   }
 
+  footer li {
+    width: 25%;
+  }
+
   .nav li {
     display: inline-block;
     width: 25%;
+  }
+
+  footer li a {
+    display: inline-block;
+    width: 100%;
   }
 
   .nav a {
@@ -329,16 +338,7 @@ footer ul {
     margin: auto;
     text-align: center;
   }
-  
-  footer li {
-    width: 25%;
-  }
-  
-  footer li a {
-    display: inline-block;
-    width: 100%;
-  }
-  
+
   footer li a:hover {
     display: inline-block;
     border-radius: 0;
