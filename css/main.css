@@ -28,9 +28,16 @@ header {
   position: relative;
 }
 
+.banner-text {
+  background-color: rgba(234, 2, 243, 0.65);
+  border-radius: 8px;
+  padding: .5em;
+  text-align: center;
+}
+
 header h1 {
   font-family: Lobster, cursive;
-  color: #000;
+  color: #fff;
   font-size: 1.5em;
   margin: 0;
 }
@@ -38,6 +45,7 @@ header h1 {
 header p {
   margin: 0;
   font-size: .9em;
+  color: #fff;
 }
 
 .banner {
@@ -96,14 +104,14 @@ footer li a {
 }
 
 footer li a:hover {
-  background-color: #333;
+  background-color: rgba(234, 2, 243, 1);
   color: #fff;
   border-radius: 8px;
   padding: .2em;
 }
 
 .nav a:hover {
-  background-color: #333;
+  background-color: rgba(234, 2, 243, 1);
   color: #fff;
   width: 100%;
 }
@@ -166,6 +174,11 @@ h2 {
   margin: auto;
 }
 
+.menu-container:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
 .menu-content {
   text-align: center;
   white-space: nowrap;
@@ -183,6 +196,10 @@ figcaption p {
 figure {
   margin: auto;
   width: 80%;
+}
+
+figure:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 figcaption h3 {
@@ -269,7 +286,7 @@ footer ul {
   }
 
   .menu h2 {
-    background-color: #ccc;
+    background-color: rgba(234, 2, 243, .5);
   }
 
   .menu-container {
@@ -290,7 +307,7 @@ footer ul {
   }
 
   .gifts h2 {
-    background-color: #ccc;
+    background-color: rgba(234, 2, 243, .5);
   }
 
   figure {
@@ -326,6 +343,10 @@ footer ul {
     width: 100%;
   }
 
+  .about h2 {
+    background-color: rgba(234, 2, 243, .5);
+    clear: both;
+  }
   .about-wrapper {
     position: relative;
   }
@@ -397,6 +418,13 @@ footer ul {
   }
 }
 
+@media only screen and (min-width: 50em) {
+  
+  .banner img {
+    margin-top: -20%;
+  }
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
@@ -404,6 +432,14 @@ footer ul {
     line-height: 1.5;
   }
 
+  .banner img {
+    margin-top: -15%;
+  }
+  
+  .banner-text {
+    background-color: rgba(234, 2, 243, .15)
+  }
+    
   header h1 {
     font-size: 3.2rem;
   }
@@ -419,11 +455,37 @@ footer ul {
   .title h2 {
     font-size: 3rem;
   }
+  
+  .menu h2 {
+    background-color: rgba(234, 2, 243, .15)
+  }
+  
+  .gifts h2 {
+    background-color: rgba(234, 2, 243, .15)
+  }
 
+  .about h2 {
+    background-color: rgba(234, 2, 243, .15)
+  }
   .about-content {
     font-family: Lobster, cursive;
   }
 }
+
+@media only screen and (min-width: 69em) {
+  
+  .banner img {
+    margin-top: -20%;
+  }
+}
+
+@media only screen and (min-width: 88em) {
+  
+  .banner img {
+    margin-top: -20%;
+  }
+}
+
 
 @media only screen and (min-width: 90em) {
 
@@ -431,10 +493,26 @@ footer ul {
     font-size: 130%;
   }
 
+  .banner img {
+    margin-top: -25%;
+  }
+  
+  .banner-text {
+    background-color: rgba(234, 2, 243, .25)
+  }
+  
+  .menu h2 {
+    background-color: rgba(234, 2, 243, .1)
+  }
+  
   .menu-container {
     width: 15%;
   }
-
+  
+  .gifts h2 {
+    background-color: rgba(234, 2, 243, .1)
+  }
+ 
   figure {
     display: inline-block;
     width: 30%;
@@ -445,7 +523,11 @@ footer ul {
     position: relative;
     top: -30px;
   }
-
+  
+  .about h2 {
+    background-color: rgba(234, 2, 243, .1)
+  }
+  
   .about-content {
     font-size: 2rem;
   }
