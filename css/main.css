@@ -244,6 +244,10 @@ footer ul {
     display: block;
   }
 
+  .nav {
+    top: 85%;
+  }
+
   li {
     display: block;
     background-color: #e2e2e2;
@@ -383,7 +387,7 @@ footer ul {
   }
 
   .nav {
-    top: 80%;
+    top: 88%;
   }
 
   figure {
