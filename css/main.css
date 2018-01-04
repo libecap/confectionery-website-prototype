@@ -29,7 +29,7 @@ header {
 }
 
 .banner-text {
-  background-color: rgba(234, 2, 243, 0.65);
+  background-color: rgba(234, 2, 243, .65);
   border-radius: 8px;
   padding: .5em;
   text-align: center;
@@ -175,8 +175,7 @@ h2 {
 }
 
 .menu-container:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 
 .menu-content {
@@ -199,7 +198,7 @@ figure {
 }
 
 figure:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 
 figcaption h3 {
@@ -347,6 +346,7 @@ footer ul {
     background-color: rgba(234, 2, 243, .5);
     clear: both;
   }
+
   .about-wrapper {
     position: relative;
   }
@@ -419,7 +419,7 @@ footer ul {
 }
 
 @media only screen and (min-width: 50em) {
-  
+
   .banner img {
     margin-top: -20%;
   }
@@ -435,11 +435,11 @@ footer ul {
   .banner img {
     margin-top: -15%;
   }
-  
+
   .banner-text {
-    background-color: rgba(234, 2, 243, .15)
+    background-color: rgba(234, 2, 243, .15);
   }
-    
+
   header h1 {
     font-size: 3.2rem;
   }
@@ -455,37 +455,37 @@ footer ul {
   .title h2 {
     font-size: 3rem;
   }
-  
+
   .menu h2 {
-    background-color: rgba(234, 2, 243, .15)
+    background-color: rgba(234, 2, 243, .15);
   }
-  
+
   .gifts h2 {
-    background-color: rgba(234, 2, 243, .15)
+    background-color: rgba(234, 2, 243, .15);
   }
 
   .about h2 {
-    background-color: rgba(234, 2, 243, .15)
+    background-color: rgba(234, 2, 243, .15);
   }
+
   .about-content {
     font-family: Lobster, cursive;
   }
 }
 
 @media only screen and (min-width: 69em) {
-  
+
   .banner img {
     margin-top: -20%;
   }
 }
 
 @media only screen and (min-width: 88em) {
-  
+
   .banner img {
     margin-top: -20%;
   }
 }
-
 
 @media only screen and (min-width: 90em) {
 
@@ -496,23 +496,23 @@ footer ul {
   .banner img {
     margin-top: -25%;
   }
-  
+
   .banner-text {
-    background-color: rgba(234, 2, 243, .25)
+    background-color: rgba(234, 2, 243, .25);
   }
-  
+
   .menu h2 {
-    background-color: rgba(234, 2, 243, .1)
+    background-color: rgba(234, 2, 243, .1);
   }
-  
+
   .menu-container {
     width: 15%;
   }
-  
+
   .gifts h2 {
-    background-color: rgba(234, 2, 243, .1)
+    background-color: rgba(234, 2, 243, .1);
   }
- 
+
   figure {
     display: inline-block;
     width: 30%;
@@ -523,11 +523,11 @@ footer ul {
     position: relative;
     top: -30px;
   }
-  
+
   .about h2 {
-    background-color: rgba(234, 2, 243, .1)
+    background-color: rgba(234, 2, 243, .1);
   }
-  
+
   .about-content {
     font-size: 2rem;
   }
