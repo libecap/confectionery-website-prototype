@@ -525,6 +525,14 @@ footer ul {
     top: -30px;
   }
 
+  .assortment-small figcaption {
+    top: -15px;
+  }
+
+  .assortment-medium figcaption {
+    top: -15px;
+  }
+
   .about h2 {
     background-color: rgba(234, 2, 243, .1);
   }
