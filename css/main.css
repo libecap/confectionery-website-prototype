@@ -178,6 +178,10 @@ h2 {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 
+.menu-container:active {
+  transform: translateY(4px);
+}
+
 .menu-content {
   text-align: center;
   white-space: nowrap;
@@ -199,6 +203,10 @@ figure {
 
 figure:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+figure:active {
+  transform: translateY(4px);
 }
 
 figcaption h3 {
@@ -454,7 +462,7 @@ footer ul {
   }
 
   .title h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .menu h2 {
